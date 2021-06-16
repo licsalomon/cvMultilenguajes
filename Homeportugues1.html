@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title> Meu CV </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="w3.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <div class="sidebar">
+            <picture>
+                <img class="imagen" src="fotocv.jpeg" alt="María Laura Salomón">
+            </picture> <br>
+
+            <a href="#datos" onclick="mostrarmisdatos()"><i class="fas fa-id-card"></i> Sobre mim </a>
+            <a href="#educacion" id="linkeducacion" onclick="mostrareducacion()"><i class="fas fa-graduation-cap"> </i>
+                Educação</a>
+            <!--<a href="#conocimientos"><i class="fas fa-code"></i>Conhecimentos</a>--
+            <a href="#portfolio" id="linkportfolio" ><i class="fas fa-briefcase"></i> Portfolio </a>!-->
+            <a href="#experiencia" onclick="mostrarexperiencia()"><i class="fas fa-briefcase"> </i> Experiência de
+                trabalho </a>
+            <a href="#info" onclick="mostrarinfoad()"><i class="fas fa-info"></i> Informação adicional </a>
+            <a href="CVSalomonMariaLauraPortugues.pdf" download target="_blank"><i
+                    class="fas fa-arrow-alt-circle-down"></i> Download PDF</a>
+            <a href="home.html">Voltar à página principal</a>
+
+
+        </div>
+    </nav>
+    <main>
+        <!-- <div id="educacion">
+            <section class="fondogeneral"> -->
+
+        <div id="datos">
+            <!-- <div class="sobremi"> -->
+            <section class="fondogeneral">
+                <h2> <strong> Sobre mim </strong></h2>
+                <ul class="datoslista">
+                    <li><span class="fas fa-id-card"></span> Nome Completo: María Laura Salomon </li>
+                    <li><span class="fas fa-id-card"></span> Data de Nascimento: 02/10/1985 </li>
+                    <li><span class="fas fa-map-marked-alt"></span> Endereço: Sâo Paulo </li>
+                    <li><span class="fas fa-mobile-alt"></span> Cel: +54 9 11 6859 9326 </li>
+                    <li><span class="fas fa-envelope-square"></span> E-Mail: liclaurasalomon@gmail.com </li>
+                    <li><span class="fas fa-envelope-square"></span> LindedIn:<a
+                            href="www.linkedin.com/in/liclaurasalomon">LicLauraSalomon</a> </li>
+                </ul>
+                <!-- <div><img class="imagendadosport" src="fotocv.jpeg" alt="María Laura Salomón"></div> -->
+                <div>
+                    <p>Próximamente mi abstracto.......</p>
+                </div>
+            </section>
+            <!-- </div> -->
+            <section style="display: none;">
+                <div class="fondoconocimientos" id="conocimientos">
+
+                    <div class="conocimientos">
+                        <h2> <strong> Habilidades Chave </strong> </h2>
+                    </div>
+
+                    <div class="linguas">
+                        <h3><strong> Línguas </strong> </h3>
+                        <ul>
+                            <li> <strong> Inglês: </strong> Upper intermediate</li>
+                            <li> <strong> Português: </strong> Intermediário avançado </li>
+                            <li> <strong> Espanhol: </strong> Nativa </li>
+
+
+                        </ul>
+                    </div>
+                    <div class="informatica">
+                        <h3><strong> Informática </strong> </h3>
+                        <ul>
+                            <li>HTML, CSS: Avançado</li>
+                            <li>JavaScript: Intermediário</li>
+                            <li> Linguagens de programação: C++, Python, PHP; Básico </li>
+                            <li>ReactJs: Básico</li>
+                            <li> Base de dados: MySQL; Básico</li>
+                            <li> Visual Studio Code, Sublime Text; Avançado</li>
+                            <li> WORD/EXCEL/PPT/OUTLOOK, Avançado </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+            <!--<section class="fondo">      
+            <h2 id="info"> Informação adicional </h2>
+                    
+                    <ul> 
+                         <li> <i class="fas fa-check-square"></i> Disponibilidade para trabalhar remotamente </li>
+                        <li> <i class="fas fa-check-square"></i> Hobbies: Estudar línguas; Escutar música e a dança; E os esportes ao ar livre como trekking </li>   
+                    </ul>
+            </section>!-->
+        </div>
+
+        <div id="educacion" style="display: none;">
+            <section class="fondogeneral">
+
+                <h2> <strong> Educação </strong> </h2>
+
+                <h3> Professional Full-Stack Developer </h3>
+                <ul>
+                    <li><strong>UTN</strong></li>
+                    <li> Fev 2021 - ATUAL </li>
+                    <li> HTML5, CSS, JavaScript, Git, React, Angular, Node.js, Express, MySQL. </li>
+                </ul>
+                <h3> Professorado de informática </h3>
+                <ul>
+                    <li><strong>CONSUDEC </strong></li>
+                    <li> 2016 - 2020 </li>
+                    <li> Promédio: 8.50 </li>
+                </ul>
+                <h3> Licenciatura em Desenho de interiores </h3>
+                <ul>
+                    <li><strong> Universidade de Morón </strong> </li>
+                    <li>2006 - 2010</li>
+                    <li> Promédio: 8 </li>
+                </ul>
+
+            </section>
+        </div>
+
+        <div id="experiencia" style="display: none;">
+            <section class="fondogeneral">
+                <h2> <strong>Projectos </strong> </h2>
+                <h3> Web: "Instituto apoyo escolar" </h3>
+                <p> Página dinâmica empleando HTML, CSS, JS e integrando uma base de dados com sessôes em PHP</p>
+                <h3> Web: Disantana photography</h3>
+                <p>Portfolio fotográfico em web dinâmica</p> <br>
+                <h4> Pode acessar estes projectos e mais em meu Github: <a
+                        href="https://github.com/licsalomon?tab=repositories">LicSalomon</a> </h4>
+            </section>
+
+
+            <section class="fondogeneral">
+                <h2> <strong>Experiençia de trabalho </strong> </h2>
+
+                <h3> Desenvolvedora web freelancer </h3>
+                <h5> 2020 - ACTUAL </h5>
+
+
+
+                <div class="separacion">
+                    <p><span class="fas fa-award"></span> Diferentes projetos autônomos que pode conhecer em meu <a
+                            href="https://github.com/licsalomon?tab=repositories">Github</a> </p>
+                </div>
+
+
+                <h3> Professora de informática e programação </h3>
+                <h4> Washington School; Colegio San Cirano </h4>
+                <h5> 2018 - 2021 </h5>
+
+
+
+                <div class="separacion">
+                    <p><span class="fas fa-award"></span> Ensino em diferentes níveis de programação e robótica: Visual
+                        Basic, PSeint, Scratch, Robomind, Lego. </p>
+                </div>
+
+                <h3> Administração de vendas </h3>
+                <h4> Top Once Sports SRL </h4>
+                <h5> 2014 - 2018 </h5>
+
+
+                <div class="separacion">
+                    <p><span class="fas fa-award"></span> Gestão de vendas, atenção a grandes clientes. </p>
+                </div>
+
+            </section>
+        </div>
+
+
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

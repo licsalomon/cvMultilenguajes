@@ -1,0 +1,340 @@
+/*Inicio de Navegacion*/
+html {
+    scroll-behavior: smooth;
+}
+
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fcf3cf;
+    overflow-x: hidden;
+    padding-top: 16px;
+}
+
+.fondoHome h1 {
+    clear: both;
+
+}
+
+.fondoHome a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(12, 10, 12);
+    display: block;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.fondoHome {
+    width: 50%;
+    list-style: none;
+    background-color: #fcf3cf;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    border-left: solid;
+    border-left-color: #FF5733;
+    border-left-width: 10px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.imagenFondo {
+    height: 30%;
+    width: 30%;
+    border-radius: 75%;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+
+
+    /*
+    align-items: stretch;
+    float: right;
+    display:inline-flex;
+   
+    
+    justify-content: flex-end;*/
+
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(12, 10, 12);
+    display: block;
+    line-height: 30px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+.sidebar a:hover,
+.fondoHome a:hover {
+    color: #FF5733;
+}
+
+/*Fin de Navegacion*/
+
+body {
+
+    background-color: #fcfbfa;
+}
+
+main {
+    margin-left: 300px;
+    margin-right: 250px;
+}
+
+/*div .fondoHome{
+    text-align: center;
+}*/
+
+.imagendados {
+    flex: 20%;
+    height: 30%;
+    width: auto;
+    border-radius: 55%;
+    float: right;
+    overflow: hidden;
+    align-self: flex-start;
+    margin: auto;
+}
+
+.datoslista {
+    flex: 80%;
+    float: left;
+    clear: initial;
+    align-self: flex-start;
+}
+
+.imagen {
+    height: 40%;
+    width: auto;
+    margin: auto;
+    display: block;
+    clear: both;
+}
+
+
+#experiencia {
+    display: none;
+}
+
+#educacion {
+    display: none;
+}
+
+.linguas {
+    flex: 50%;
+    float: left;
+    clear: initial;
+    align-self: flex-start;
+}
+
+.informatica {
+    flex: 50%;
+    float: left;
+    overflow: hidden;
+    align-self: flex-start;
+}
+
+.conocimientos,
+.sobremi {
+    flex: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    align-self: flex-start;
+
+}
+
+.fondoconocimientos {
+    background-color: #fcf3cf;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    border-left: solid;
+    border-left-color: #FF5733;
+    border-left-width: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+
+}
+
+.fondo {
+    list-style: none;
+    background-color: #fcf3cf;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    border-left: solid;
+    border-left-color: #FF5733;
+    border-left-width: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: stretch;
+
+}
+
+.fondodados {
+    list-style: none;
+    background-color: #fcf3cf;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    padding: 5px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    border-left: solid;
+    border-left-color: #FF5733;
+    border-left-width: 10px;
+    /* display: flex; */
+    /* flex-flow:row wrap;
+        justify-content: space-around;
+        align-items: stretch; */
+
+}
+
+.imagendadosport {
+    flex: 20%;
+    height: 10%;
+    width: auto;
+    border-radius: 55%;
+    /* float: right; */
+    /* overflow: hidden; */
+    align-self: flex-start;
+    margin: auto;
+}
+
+.fondogeneral {
+    list-style: none;
+    background-color: #fcf3cf;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    border-left: solid;
+    border-left-color: #FF5733;
+    border-left-width: 10px;
+}
+
+
+.espacio {
+    margin: 20px;
+}
+
+.separacion {
+    margin-top: 30px;
+}
+
+.clear-fix {
+    clear: both;
+    padding-bottom: 30px;
+}
+
+picture {
+
+    height: 0px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+}
+
+.fondo h1 {
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration-color: #BB8FCE;
+}
+
+.fondo h2 {
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.fondo h3 {
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+/*h3{
+    margin-top:35px;
+    margin-bottom:10px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}*/
+
+.fondo h4 {
+    margin: 5px;
+    font-size: 25px;
+}
+
+.fondo h5 {
+    margin: 5px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.fondo h6 {
+    font-size: 20px;
+}
+
+.datoslista li {
+    line-height: 10px;
+    float: left;
+    overflow: hidden;
+
+}
+
+li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+p {
+    margin: 5px;
+    font-size: 20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
