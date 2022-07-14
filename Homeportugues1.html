@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title> Meu CV </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="CV.css">
+    <link rel="stylesheet" href="w3.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav>
+        <div class="sidebar">
+            <picture>
+                <img class="imagen" src="fotocv.jpeg" alt="María Laura Salomón">
+            </picture> <br>
+
+            <a href="#datos" onclick="mostrarmisdatos()"><i class="fas fa-id-card"></i> Sobre mim </a>
+            <a href="#educacion" id="linkeducacion" onclick="mostrareducacion()"><i class="fas fa-graduation-cap"> </i>
+                Educação</a>
+            <a href="#conocimientos" onclick="mostrarConocimientos()"><i class="fas fa-code"></i>Conhecimentos</a>
+            <!-- <a href="#portfolio" id="linkportfolio" ><i class="fas fa-briefcase"></i> Portfolio </a> -->
+            <a href="#experiencia" onclick="mostrarexperiencia()"><i class="fas fa-briefcase"> </i> Experiência de
+                trabalho </a>
+            <a href="#info" onclick="mostrarinfoad()"><i class="fas fa-info"></i> Informação adicional </a>
+            <a href="CurriculumSalomonMariaLauraPort.pdf" download target="_blank"><i
+                    class="fas fa-arrow-alt-circle-down"></i> Download PDF</a>
+            <a href="home.html">Voltar à página principal</a>
+
+
+        </div>
+    </nav>
+    <main>
+
+        <div id="datos">
+            <header>
+                <section class="fondogeneral">
+                    <div>
+                        <h1> <strong> Sobre mim </strong></h1>
+                        <ul class="datos">
+                            <li><span class="fas fa-id-card"></span> Nome Completo: María Laura Salomon </li>
+                            <li><span class="fas fa-id-card"></span> Data de Nascimento: 02/10/1985 </li>
+                            <li><span class="fas fa-map-marked-alt"></span> Endereço: Sâo Paulo </li>
+                            <li><span class="fas fa-mobile-alt"></span> Cel: +55 9 98 992041837 </li>
+                            <li><span class="fas fa-envelope-square"></span> E-Mail: liclaurasalomon@gmail.com </li>
+                            <li><span class="fas fa-envelope-square"></span> LindedIn:<a
+                                    href="www.linkedin.com/in/liclaurasalomon">LicLauraSalomon</a> </li>
+                        </ul>
+                    </div>
+                    <br><br>
+                    <div>
+
+                        <p>Full Stack developer, especializada em Fron-End e JavaScript, com mais de
+                            dois anos de experiencia no mercado. Conto com 7 certificações Microsoft.
+                            Sou principalmente autodidata, mas também neste momento continuo
+                            meus estudos superiores na área. Curiosa, flexível e apaixonada pelas novas
+                            tecnologias, gosto dos desafios, considero eles uma grande fonte de
+                            crescimento.</p>
+                    </div>
+                </section>
+            </header>
+        </div>
+        <div id="educacion" style="display: none;">
+            <section class="fondogeneral">
+
+                <h2> <strong> Educação </strong> </h2>
+                <h3> Tecnologo em Analista de sistemas </h3>
+                <ul>
+                    <li><strong>ESBA</strong></li>
+                    <li> Feb 2022 - atual </li>
+                </ul>
+                <h3> Professional Full-Stack Developer </h3>
+                <ul>
+                    <li><strong>UTN</strong></li>
+                    <li> Fev 2021 - ago 2021 </li>
+                    <li> HTML5, CSS, JavaScript, Git, React, Angular, Node.js, Express, MySQL. </li>
+                </ul>
+                <h3> Professorado de informática </h3>
+                <ul>
+                    <li><strong>CONSUDEC </strong></li>
+                    <li> 2016 - 2020 </li>
+                    <li> Promédio: 8.50 </li>
+                </ul>
+                <h3> Licenciatura em Desenho de interiores </h3>
+                <ul>
+                    <li><strong> Universidade de Morón </strong> </li>
+                    <li>2006 - 2010</li>
+                    <li> Promédio: 8 </li>
+                </ul>
+
+            </section>
+        </div>
+        <section id="conocimientos" class="fondogeneral" style="display: none;">
+            
+                <h2> <strong> Habilidades Chave </strong> </h2>
+           
+
+                <h3><strong> Línguas </strong> </h3>
+                <ul>
+                    <li> <strong> Inglês: </strong> Avançado</li>
+                    <li> <strong> Português: </strong> Avançado </li>
+                    <li> <strong> Espanhol: </strong> Nativa </li>
+                </ul>
+                <h3 id="informatica"><strong> Informática </strong> </h3>
+                <ul>
+                    <li>HTML, CSS: Avançado</li>
+                    <li>JavaScript e NodeJS: Intermediário</li>
+                    <li>Frameworks(React, Angular, JQuery, SapUI5): Intermediário</li>
+                    <li>Git e Github: Intermedio</li>
+                    <li> Linguagens de programação: C++, Python, PHP, Java; Básico </li>
+                    <li> Base de dados: MySQL,MongoDB, Firebase; Básico</li>
+                    <li> Visual Studio Code, Sublime Text; Avançado</li>
+                    <li> AZURE/WORD/EXCEL/PPT/OUTLOOK, Avançado </li>
+                </ul>
+        </section>
+        <div id="experiencia" style="display: none;">
+            <section class="fondo">
+                <h2> <strong>Projectos </strong> </h2>
+                <p> Desenvolvi diferentes projetos pessoais, freelancer e para diferentes cursos.
+                    Pode acessar estes projectos e mais em meu Github: <a
+                        href="https://github.com/licsalomon?tab=repositories">LicSalomon</a> </h4>
+
+            </section>
+
+
+            <section class="fondo" style="display: none;">
+                <h2> <strong>Experiençia de trabalho </strong> </h2>
+                <h3> Analista Front End </h3>
+                <h4> Avande Brasil </h4>
+                <h5> 2021 - ACTUAL </h5>
+                <p><span class="fas fa-award"></span>
+                    Desenvolvedora Front-End na Avanade
+                    Analista de sistemas. Eu estou atuando como
+                    desenvolvedora em diferentes projetos, atualmente com um cliente
+                    multinacional, planejando e implementando soluções com JavaScript,
+                    SapUI5 e Azure, como assim também escrevendo testes unitários e
+                    integrados. Trabalhando com uma equipe multifuncional com metologias
+                    agiles como Scrum</p>
+
+                <h3> Desenvolvedora web freelancer </h3>
+                <h5> 2020 - 2021 </h5>
+
+                <div class="separacion">
+                    <p><span class="fas fa-award"></span> Diferentes projetos autônomos que pode conhecer em meu <a
+                            href="https://github.com/licsalomon?tab=repositories">Github</a> </p>
+                </div>
+
+
+                <h3> Professora de informática e programação </h3>
+                <h4> Washington School; Colegio San Cirano </h4>
+                <h5> 2018 - 2021 </h5>
+
+
+
+                <div class="separacion">
+                    <p><span class="fas fa-award"></span> Ensino em diferentes níveis de programação e robótica: Visual
+                        Basic, PSeint, Scratch, Robomind, Lego. </p>
+                </div>
+
+            </section>
+        </div>
+        <div id="info" style="display: none;">
+            <section class="fondo">
+                <h2> Información Adicional </h2>
+
+                <ul>
+
+                    <li> <i class="fas fa-check-square"></i> Disponibilidade para viajar
+                        por
+                        trabalho </li>
+                    <li> <i class="fas fa-check-square"></i> Hobbies: línguas, música e dança, trekking </li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
